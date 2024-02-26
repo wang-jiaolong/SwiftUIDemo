@@ -13,6 +13,7 @@
 		D0DDAC952B8C70CD003399FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DDAC942B8C70CD003399FE /* Preview Assets.xcassets */; };
 		D0DDAC972B8C70CD003399FE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDAC962B8C70CD003399FE /* Persistence.swift */; };
 		D0DDAC9A2B8C70CD003399FE /* SwiftUIDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0DDAC982B8C70CD003399FE /* SwiftUIDemo.xcdatamodeld */; };
+		D0DDACA22B8C7140003399FE /* StateObject_ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDACA12B8C7140003399FE /* StateObject_ObservedObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D0DDAC942B8C70CD003399FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0DDAC962B8C70CD003399FE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D0DDAC992B8C70CD003399FE /* SwiftUIDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIDemo.xcdatamodel; sourceTree = "<group>"; };
+		D0DDACA12B8C7140003399FE /* StateObject_ObservedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateObject_ObservedObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		D0DDAC8C2B8C70CC003399FE /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D0DDACA02B8C7140003399FE /* BestPractice */,
 				D0DDAC8D2B8C70CC003399FE /* SwiftUIDemoApp.swift */,
 				D0DDAC8F2B8C70CC003399FE /* ContentView.swift */,
 				D0DDAC912B8C70CD003399FE /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				D0DDAC942B8C70CD003399FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0DDACA02B8C7140003399FE /* BestPractice */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDACA12B8C7140003399FE /* StateObject_ObservedObject.swift */,
+			);
+			path = BestPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 				D0DDAC9A2B8C70CD003399FE /* SwiftUIDemo.xcdatamodeld in Sources */,
 				D0DDAC972B8C70CD003399FE /* Persistence.swift in Sources */,
 				D0DDAC902B8C70CC003399FE /* ContentView.swift in Sources */,
+				D0DDACA22B8C7140003399FE /* StateObject_ObservedObject.swift in Sources */,
 				D0DDAC8E2B8C70CC003399FE /* SwiftUIDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
